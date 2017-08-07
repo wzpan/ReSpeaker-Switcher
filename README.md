@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ## 使用
 
 ``` sh
-python swither.py
+python switcher.py
 ```
 
 ## 与叮当一同开机启动
