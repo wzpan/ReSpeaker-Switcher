@@ -21,5 +21,7 @@ python switcher.py
 要与叮当一同开机启动，可以参考叮当 [设置开机启动](https://github.com/wzpan/dingdang-robot/wiki/configuration#设置开机启动) ，在 dingdang.sh 中添加如下命令：
 
 ``` sh
-python /home/pi/ReSpeaker-Switcher/switcher.py &
+...
+sleep 1
+sudo python /home/pi/ReSpeaker-Switcher/switcher.py &
 ``` 
